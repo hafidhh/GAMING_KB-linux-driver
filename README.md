@@ -24,6 +24,9 @@ Original base: http://swoogan.blogspot.de/2014/09/azio-l70-keyboard-linux-driver
     # fedora:
     sudo dnf install kernel-devel kernel-headers
     sudo dnf groupinstall "Development Tools" "Development Libraries"
+
+    # arch:
+    sudo pacman -S git base-devel linux-headers dkms
     
     git clone https://github.com/hafidhh/GAMING_KB-linux-driver.git
     cd aziokbd
